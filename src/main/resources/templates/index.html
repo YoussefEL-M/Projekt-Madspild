@@ -4,73 +4,90 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <title>Danmark mod madspild</title>
-    <link rel="Stylesheet" href="../static/style.css" th:href="@{/style.css}">
+    <link rel="Stylesheet" href="../static/CSS/style.css" th:href="@{/CSS/style.css}">
 </head>
 <body>
-<nav class="navbar">
-    <img class="logo" src="https://cdn.discordapp.com/attachments/1215644449091354675/1216048179372626071/Trashpanda.png?ex=65fef81f&is=65ec831f&hm=0650e3d5c5002f953928524f96c85aa0e206e45ee09b2de239d9d08f534b4fc2&" alt="logo">
-    <a class="header_element" href="/">Hjem</a>
-    <a class="header_element" href="/organisation">Organisation</a>
-    <a class="header_element" href="/virksomhed">Virksomhed</a>
-    <a class="header_element" href="/institution">Institution</a>
-    <a class="header_element" href="/forbruger">Forbruger</a>
-    <a class="header_element" href="/tipsogtricks">Tips og tricks</a>
-</nav>
+    <nav class="navbar">
+        <div>
+            <img class="logo" src="https://cdn.discordapp.com/attachments/1215644449091354675/1216048179372626071/Trashpanda.png?ex=65fef81f&is=65ec831f&hm=0650e3d5c5002f953928524f96c85aa0e206e45ee09b2de239d9d08f534b4fc2&" alt="logo">
+        </div>
+        <a class="header_element" href="/">Hjem</a>
+        <a class="header_element" href="/organisation">Organisation</a>
+        <a class="header_element" href="/virksomhed">Virksomhed</a>
+        <a class="header_element" href="/institution">Institution</a>
+        <a class="header_element" href="/forbruger">Forbruger</a>
+        <a class="header_element" href="/tipsogtricks">Tips og tricks</a>
+    </nav>
 
-<img class="banner" src="https://cdn.discordapp.com/attachments/1215644449091354675/1216061390390034613/Screenshot_1783_2.png?ex=65ff046c&is=65ec8f6c&hm=9b338ed4541616117e6cadbf21bda174874e592d8d1f55219a08eea63e3004d3&" alt="banner">
+    <div class="banner">
+        <img src="https://cdn.discordapp.com/attachments/1215644449091354675/1216061390390034613/Screenshot_1783_2.png?ex=65ff046c&is=65ec8f6c&hm=9b338ed4541616117e6cadbf21bda174874e592d8d1f55219a08eea63e3004d3&" alt="banner">
+    </div>
 
-
-<div>
-<h1>
-    Stop Madspild
-</h1>
-
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisi vel leo efficitur convallis.
-    Nulla facilisi. Maecenas euismod ultrices purus, id congue risus tempor nec.
-    Proin vitae sapien at leo placerat commodo nec et justo.
-    Phasellus nec lacinia urna, vitae interdum magna.
-    Integer ultrices fringilla eros, nec rutrum odio dignissim quis. Vestibulum at varius mauris.
-    Duis id quam eget arcu fermentum euismod. Quisque non vestibulum lorem. Fusce nec scelerisque magna.
-    Nulla facilisi. Donec ac nisl vel lorem bibendum tincidunt.
-    Sed sit amet justo nec ipsum congue fermentum.</p>
+<div class="forside-indmad">
 
 
-<p>Suspendisse potenti. Curabitur pulvinar varius sem, non tincidunt magna bibendum vitae.
-    Integer bibendum massa ut enim rhoncus lacinia. Nullam ac nisi vitae ligula dictum laoreet.
-    In hac habitasse platea dictumst. Sed vel libero nec ex fermentum fringilla.
-    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-    Integer maximus elit ac nisi lacinia, a fermentum arcu posuere. Sed et ligula mauris.
-    Nullam in condimentum purus.</p>
+    <div class="image">
+        <img  src="../static/images/img.png" th:src="@{/images/img.png}" alt="forsidebilled">
+    </div>
 
-</div>
+    <div>
 
-<img class="image" src="../static/img.png" th:href="@{img.png}">
+        <div class="tekst">
 
-<br>
+            <h1>
+                Stop Madspild
+            </h1>
 
-<div>
-<h2> Overskrift </h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisi vel leo efficitur convallis.
+            Nulla facilisi. Maecenas euismod ultrices purus, id congue risus tempor nec.
+            Proin vitae sapien at leo placerat commodo nec et justo.
+            Phasellus nec lacinia urna, vitae interdum magna.
+            Integer ultrices fringilla eros, nec rutrum odio dignissim quis. Vestibulum at varius mauris.
+            Duis id quam eget arcu fermentum euismod. Quisque non vestibulum lorem. Fusce nec scelerisque magna.
+            Nulla facilisi. Donec ac nisl vel lorem bibendum tincidunt.
+            Sed sit amet justo nec ipsum congue fermentum.</p>
 
-<p>Pellentesque eget felis odio. Integer ut nunc magna.
-    Curabitur luctus, purus sit amet blandit luctus, elit libero aliquam lacus,
-    in pharetra metus nisi sit amet nulla.
-    Nullam vel dictum velit. Phasellus non augue eget tortor scelerisque ultricies.
-    Proin consectetur arcu non augue condimentum, sit amet mattis leo varius.
-    Vivamus ultrices mauris id est convallis, vel tincidunt purus aliquam.
-    Ut viverra, odio in tincidunt semper, metus lectus facilisis nisi, eget ultricies ex leo id felis.
-    Sed suscipit lorem vitae libero venenatis, sit amet efficitur velit bibendum.
-    Etiam ut interdum dui.
-    Maecenas posuere enim in nunc vestibulum, nec facilisis magna fermentum.
-    Sed convallis dignissim justo eget commodo. Nunc eget turpis id purus hendrerit placerat.
-    Sed eu tortor a elit dictum ultricies.
-    Sed condimentum odio id magna cursus, in vulputate felis feugiat.</p>
+            <p>Suspendisse potenti. Curabitur pulvinar varius sem, non tincidunt magna bibendum vitae.
+            Integer bibendum massa ut enim rhoncus lacinia. Nullam ac nisi vitae ligula dictum laoreet.
+            In hac habitasse platea dictumst. Sed vel libero nec ex fermentum fringilla.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            Integer maximus elit ac nisi lacinia, a fermentum arcu posuere. Sed et ligula mauris.
+            Nullam in condimentum purus.</p>
+        </div>
+
+
+        <br>
+
+        <div>
+            <h2> Overskrift </h2>
+
+            <p>Pellentesque eget felis odio. Integer ut nunc magna.
+                Curabitur luctus, purus sit amet blandit luctus, elit libero aliquam lacus,
+                in pharetra metus nisi sit amet nulla.
+                Nullam vel dictum velit. Phasellus non augue eget tortor scelerisque ultricies.
+                Proin consectetur arcu non augue condimentum, sit amet mattis leo varius.
+                Vivamus ultrices mauris id est convallis, vel tincidunt purus aliquam.
+                Ut viverra, odio in tincidunt semper, metus lectus facilisis nisi, eget ultricies ex leo id felis.
+                Sed suscipit lorem vitae libero venenatis, sit amet efficitur velit bibendum.
+                Etiam ut interdum dui.
+                Maecenas posuere enim in nunc vestibulum, nec facilisis magna fermentum.
+                Sed convallis dignissim justo eget commodo. Nunc eget turpis id purus hendrerit placerat.
+                Sed eu tortor a elit dictum ultricies.
+                Sed condimentum odio id magna cursus, in vulputate felis feugiat.</p>
+        </div>
+
+    </div>
+
+    <div class="graf">
+        <img src="../static/images/madspild-graf.png" th:src="@{/images/madspild-graf.png}" alt="graf billed">
+    </div>
 </div>
 
 <footer>
     <div class="info">
 
         <div class="footerImage">
-            <img th:src="@{/madspild1-1.png}" alt="madspild">
+            <img src="../static/images/madspild1-1.png" th:src="@{/images/madspild1-1.png}" alt="madspild">
         </div>
 
         <div class="links">
