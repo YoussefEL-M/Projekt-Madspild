@@ -40,29 +40,40 @@ img{
 p, h1, h2{
     text-align:center;
     margin:auto;
-    width:33%;
+    width: 70%;
 }
 
 .forside-indmad {
+    width: 100%;
     display: flex;
     align-items: center;
+    position: relative;
 
 }
 
 .forside-indmad .image{
-    width: 100%;
+    width: 200%;
     overflow:auto;
-    margin-left: 1.5em;
+    margin-left: 3em;
 }
 
 .forside-indmad .tekst {
-    width: 100%;
-    text-align: center;
+    justify-content: flex-start;
+    font-size: 16px
+
+}
+.tekst2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
-.forside-indmad .graf {
-    width: 100%;
+.tekst2 .graf {
+    display: block;
+    align-content: end;
+    width: 200%;
     margin-right: 1.5em;
+    overflow: auto;
 
 }
 
