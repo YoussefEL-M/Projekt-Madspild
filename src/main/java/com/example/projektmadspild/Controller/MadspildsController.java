@@ -24,6 +24,12 @@ public class MadspildsController {
         return "redirect:/institution";
     }
 
+    @PostMapping("/redirect/organisation")
+    public String redirectOrganisation(RedirectAttributes attributes){
+        attributes.addAttribute("redirectUrl", "/organisation");
+        return "redirect:/organisation";
+    }
+
     @GetMapping("/tipsogtricks")
     public String tipsSide() {
         return "tipsOgTricks";
@@ -37,6 +43,11 @@ public class MadspildsController {
     @GetMapping("/forbruger")
     public String forbruger(){
         return "forbruger";
+    }
+
+    @GetMapping("/organisation")
+    public String organisation(){
+        return "organisation";
     }
 
 }

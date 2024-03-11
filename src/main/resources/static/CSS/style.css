@@ -138,6 +138,16 @@ footer {
     height: 100px;
 }
 
+.tgtg{
+    width:180%;
+    padding-left: 180px;
+  }
+
+.bellhouse{
+    width:180%;
+    padding-right:180px;
+}
+
 #contactinfo {
     margin-right: 10%;
 }
