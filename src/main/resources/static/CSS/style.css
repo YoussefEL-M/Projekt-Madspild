@@ -29,7 +29,9 @@ img{
     padding: 0.5em 1em;
 }
 .logo {
-    padding: 20px;
+    padding-top: 3px;
+    width: 50%;
+    height: 50%;
 }
 .banner {
     width: 100%;
