@@ -12,15 +12,16 @@ public class MadspildsController {
     public String index(){
         return "index";
     }
-    @PostMapping("/redirect")
-    public String redirect(RedirectAttributes attributes){
-
+    @PostMapping("/redirect/tips")
+    public String redirectTips(RedirectAttributes attributes){
         attributes.addAttribute("redirectUrl", "/tipsogtricks");
-        return "redirect:/tips";
-    }
-    @GetMapping("/redirecting")
-    public String redirectToTipsogtricks() {
         return "redirect:/tipsogtricks";
+    }
+
+    @PostMapping("/redirect/institution")
+    public String redirectInstitution(RedirectAttributes attributes){
+        attributes.addAttribute("redirectUrl", "/institution");
+        return "redirect:/institution";
     }
 
     @GetMapping("/tipsogtricks")
@@ -28,6 +29,10 @@ public class MadspildsController {
         return "tipsOgTricks";
     }
 
+    @GetMapping("/institution")
+    public String institutionsSide(){
+        return "institution";
+    }
 
     @GetMapping("/forbruger")
     public String forbruger(){
