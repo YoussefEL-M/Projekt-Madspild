@@ -29,4 +29,9 @@ public class MadspildsController {
     }
 
 
+    @GetMapping("/forbruger")
+    public String forbruger(){
+        return "forbruger";
+    }
+
 }
