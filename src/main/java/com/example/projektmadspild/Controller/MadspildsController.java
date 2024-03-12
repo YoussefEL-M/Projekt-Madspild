@@ -50,4 +50,10 @@ public class MadspildsController {
         return "organisation";
     }
 
+    @GetMapping("/virksomhed")
+    public String forVirksomheder() {
+
+        return "virksomhed";
+    }
+
 }
