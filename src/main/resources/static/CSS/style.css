@@ -21,7 +21,7 @@ img{
 }
 .header_element {
     text-decoration: none;
-    color: white;
+    color: lightgrey;
     display: inline-flex;
     text-align: center;
     font-size: 18px;
@@ -41,6 +41,7 @@ p, h1, h2{
     text-align:center;
     margin:auto;
     width: 70%;
+    font-family: Georgia, serif;
 }
 
 .forside-indmad {
