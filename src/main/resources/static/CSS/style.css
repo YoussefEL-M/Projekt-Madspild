@@ -174,7 +174,16 @@ footer {
     margin-right: 0.5em;
 }
 
-#boks {
+#tekstboks {
 
-    border-inline:lightslategray;
+    font-size:14px;
+    color:grey;
+    display:block;
+    background-color: rgba(210, 210, 218, 0.55);
+    padding-inline-start: 20px;
+    padding-inline-end:20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin-bottom:70px;
+
 }
