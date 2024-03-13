@@ -149,7 +149,8 @@ footer {
 
 }
 .contact textarea {
-    height: 100px;
+    height: 200px;
+    width: 250px;
 }
 
 .tgtg{
