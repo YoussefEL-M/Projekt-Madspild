@@ -90,6 +90,43 @@ p, h1, h2{
 
 }
 
+.kontakt {
+    text-align: center;
+    display:inline-block;
+
+    width:100%;
+    height:50%;
+    padding:2px;
+    margin-left:500px;
+    margin-bottom:10px;
+    margin-top:10px;
+
+
+
+
+
+
+
+}
+.kontaktOverskrift h1 {
+
+    margin-bottom:20px;
+    margin-top:20px;
+
+}
+.kontaktOverskrift {
+    border-radius:10px;
+    border:2px ridge darkgrey;
+    box-shadow: black;
+    background-color:aliceblue;
+    max-width:500px;
+}
+.paragraf {
+
+    margin-bottom:25px;
+}
+
+
 .tips-indmad {
     display: flex;
     align-items: center;
