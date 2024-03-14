@@ -41,7 +41,6 @@ img{
     min-height: 70px;
     min-width:70px;
     margin-left: 3px;
-    padding-left:30px;
 }
 .banner {
     width: 100%;
@@ -147,6 +146,10 @@ p, h1, h2{
     text-decoration: none;
     display: block;
     z-index:2;
+}
+.dropdown_button{
+    display:inline;
+    padding-left:35px;
 }
 .dropdown:hover .dropdown_links{display:block;}
 
