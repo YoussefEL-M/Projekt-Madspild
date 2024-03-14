@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Danmark mod madspild - kontakt</title>
@@ -15,7 +15,7 @@
                 <img  src="../static/images/Logo.png" th:src="@{/images/Logo.png}" alt="logo">
             </a>
         </div>
-        <a class="header_element" href="/" style="color:white;text-decoration: underline">Forside</a>
+        <a class="header_element" href="/">Forside</a>
         <a class="header_element" href="/organisation">Organisation</a>
         <a class="header_element" href="/virksomhed">Virksomhed</a>
         <a class="header_element" href="/institution">Institution</a>
@@ -32,7 +32,7 @@
         <h1> Tusind tak for din besked</h1>
         <div class="paragraf">
         <p> Vi vil besvare din henvendelse så hurtigt som muligt.</p>
-        <p> Du vil modtage svar på denne mail: <span th:text="@{email}"></span></p>
+        <p> Du vil modtage svar på denne mail: <span th:text="${email}"></span></p>
         </div>
 
         </div>

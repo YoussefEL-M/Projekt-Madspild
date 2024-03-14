@@ -41,7 +41,7 @@ public class MadspildsController {
     @GetMapping("/kontakt")
     public String showInfo(@RequestParam ("redirectText") String email, Model model) {
 
-        model.addAttribute("text", email);
+        model.addAttribute("email", email);
 
         return "kontakt";
     }
