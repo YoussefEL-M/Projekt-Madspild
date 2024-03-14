@@ -163,6 +163,10 @@ p, h1, h2{
     display: block;
     z-index:2;
 }
+.dropdown_button{
+    display:inline;
+    padding-left:35px;
+}
 .dropdown:hover .dropdown_links{display:block;}
 
 #overskrift1 {
