@@ -139,6 +139,7 @@ p, h1, h2{
     background-color:#149044;
     width:100%;
     z-index:2;
+    padding-top: 10px;
 }
 .dropdown_links a{
     color: white;
