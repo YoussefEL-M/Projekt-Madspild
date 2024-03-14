@@ -255,7 +255,7 @@ footer {
 
 .newsletter {
     flex:1;
-    max-width: 350px;
+    max-width: 300px;
     margin: 0 auto;
     border: 3px solid #ddd;
     border-radius: 5px;
@@ -284,7 +284,7 @@ footer {
     border-bottom: 2px solid;
     background: transparent;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     transition: border-color 0.3s;
 }
 ::placeholder{
@@ -304,7 +304,7 @@ footer {
     border-radius: 5px;
     background-color: #1D2F54;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
