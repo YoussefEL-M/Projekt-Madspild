@@ -99,7 +99,7 @@ p, h1, h2{
     padding: 2px;
     border-radius: 10px;
     border: 2px ridge darkgrey;
-    background-color: aliceblue;
+    background-color: #dbdede;
     max-width: 500px;
     margin: 20px auto;
 }
@@ -109,6 +109,7 @@ p, h1, h2{
     margin-top:20px;
 }
 .paragraf {
+
     margin-bottom:25px;
 }
 
