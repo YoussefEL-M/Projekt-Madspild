@@ -38,6 +38,8 @@ img{
     padding-top: 3px;
     width: 4%;
     height: 4%;
+    min-height: 70px;
+    min-width:70px;
     margin-left: 3px;
     padding-left:30px;
 }
