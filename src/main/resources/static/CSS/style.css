@@ -324,7 +324,7 @@ footer {
     width:100%;
     height:50%;
     max-width:500px;
-    padding:2px;
+    padding:20px;
 
 }
 .donateoverskrift {
@@ -336,10 +336,15 @@ footer {
 
 .donateFields {
     margin-bottom:25px;
-    justify-content: space-around;
 
 }
 .knap {
-    background-color: green;
+    background-color: #6ad972;
+    cursor:pointer;
+    margin-bottom:5px;
+    border-radius:5px;
+
+
+
 
 }
