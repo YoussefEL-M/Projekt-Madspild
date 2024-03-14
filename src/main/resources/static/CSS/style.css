@@ -312,3 +312,34 @@ footer {
 .newsletter input[type="submit"]:hover {
     opacity: 85%;
 }
+
+.donate {
+
+    text-align: left;
+    display: inline-block;
+    background-color: #dbdede;
+    border-radius:5px;
+    margin:20px auto;
+    border:2px ridge darkgray;
+    width:100%;
+    height:50%;
+    max-width:500px;
+    padding:2px;
+
+}
+.donateoverskrift {
+
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.donateFields {
+    margin-bottom:25px;
+    justify-content: space-around;
+
+}
+.knap {
+    background-color: green;
+
+}
