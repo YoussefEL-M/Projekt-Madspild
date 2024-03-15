@@ -52,6 +52,7 @@ p, h1, h2{
     width: 70%;
     font-family: Georgia, serif;
     z-index:0;
+    line-height:1.6;
 }
 
 .forside-indmad {
@@ -354,10 +355,20 @@ footer {
 .donateFields input[type="submit"]:hover {
     background-color: #5cbf6d;
 }
+.donateFields {
+
+    text-align:left;
+
+}
 .knap {
     background-color: #6ad972;
     cursor:pointer;
     margin-bottom:5px;
     border-radius:5px;
 
+}
+li {
+
+    line-height:1.5;
+    font-size:16px;
 }

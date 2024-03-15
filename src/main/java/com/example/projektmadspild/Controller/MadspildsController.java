@@ -14,11 +14,6 @@ public class MadspildsController {
     public String index(){
         return "index";
     }
-    @PostMapping("/redirect/tips")
-    public String redirectTips(RedirectAttributes attributes){
-        attributes.addAttribute("redirectUrl", "/tipsogtricks");
-        return "redirect:/tipsogtricks";
-    }
 
     @PostMapping("/redirect/institution")
     public String redirectInstitution(RedirectAttributes attributes){
@@ -46,10 +41,6 @@ public class MadspildsController {
         return "kontakt";
     }
 
-    @GetMapping("/tipsogtricks")
-    public String tipsSide() {
-        return "tipsOgTricks";
-    }
 
     @GetMapping("/institution")
     public String institutionsSide(){
